@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h2 {
+    font-size: 1.8rem;
+}
+
 header {
     padding: 22px 28px 32px;
     display: flex;
@@ -45,4 +49,42 @@ header {
 
 .btn-saiba-mais:hover {
     color: #333333;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+}
+
+.red-column {
+    background-color: red;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 52px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+.col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0;
+}
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #dcdcdc;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(161, 161, 161);
 }
