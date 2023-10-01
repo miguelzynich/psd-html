@@ -88,3 +88,43 @@ footer {
     color: black;
     border: 1px solid rgb(161, 161, 161);
 }
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-toggler {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.navbar-toggler-icon {
+    display: block;
+}
+
+.navbar-collapse {
+    flex-basis: auto;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+    margin: 4px;
+    color: #dcdcdc;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
